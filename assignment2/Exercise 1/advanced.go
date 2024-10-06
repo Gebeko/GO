@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
+	"time"
 
 	_ "github.com/lib/pq"
 )
@@ -130,7 +131,7 @@ func main() {
 	}
 	db.SetMaxOpenConns(5)
 	db.SetMaxIdleConns(5)
-	db.SetConnMaxLifetime(0)
+	db.SetConnMaxLifetime(30 * time.Minute)
 
 	fmt.Println("Success in connecting")
 
