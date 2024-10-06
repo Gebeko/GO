@@ -118,9 +118,8 @@ func main() {
 	// 	log.Fatal(err)
 	// }
 
-	// if err := deleteUser(db, 3); err != nil {
+	// if err := deleteUser(db, allUsers[0].ID); err != nil {
 	// 	log.Fatal(err)
-	// } else {
-	// 	fmt.Println("Deleted user")
 	// }
+
 }
