@@ -8,7 +8,7 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 )
 
-var jwtKey = []byte("your_secret_key")
+var jwtKey = []byte("GEBEKTOKENIZATION")
 
 type User struct {
 	Username string `json:"username"`
