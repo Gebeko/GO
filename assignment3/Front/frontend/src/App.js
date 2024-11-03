@@ -21,7 +21,7 @@ const App = () => {
         setIsAuthenticated(true);
         localStorage.setItem('token', token);
         const decodedToken = jwtDecode(token);
-        console.log("Decoded Token:", decodedToken);
+        // console.log("Decoded Token:", decodedToken);
         setUserRole(decodedToken.role);
     };
 
