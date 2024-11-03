@@ -1,0 +1,16 @@
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-group-item {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .list-group-item:hover {
+    transform: scale(1.02);
+  }
+  
